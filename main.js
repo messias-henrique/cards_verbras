@@ -212,6 +212,79 @@ function getTintasMetalMadeira(){
     listaVernizes = [];
 }
 
+
+function getTexturas(){
+    var linha = document.getElementById("cardRow");
+    linha.innerHTML = ""
+    var coluna = []
+    if (listaTexturas == 1){
+        listaTexturas = 0;
+    }
+    if (listaTexturas == 0) {
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/textura-interna/'">
+                    <img class="card-img-top" src="imagens/texturas/1_textura_interna.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Textura Interna</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/textura-interna/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/textura-externa/'">
+                    <img class="card-img-top" src="imagens/texturas/2_textura_externa.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Textura Externa</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/textura-externa/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/textura-nobre/'">
+                    <img class="card-img-top" src="imagens/texturas/3_textura_nobre.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Textura Nobre</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/textura-nobre/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/textura-com-quartzo/'">
+                    <img class="card-img-top" src="imagens/texturas/4_textura_quartzo.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Textura com Quartzo</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/textura-com-quartzo/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+    }
+
+    for(i = 0; i < coluna.length; i++){
+        linha.innerHTML += coluna[i];
+    }
+
+    //linha.innerHTML = coluna;
+    listaTexturas += 1;
+    listaParede = [];
+    listaComplementos = [];
+    listaMetalMadeira = [];
+    listaVernizes = [];
+}
+
 // function getTintasParede(){
 //     if (listaParede == 0) {
 //         var request = new XMLHttpRequest();
