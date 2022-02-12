@@ -281,6 +281,197 @@ function getTexturas(){
     listaVernizes = [];
 }
 
+function getComplementos(){
+    var linha = document.getElementById("cardRow");
+    linha.innerHTML = ""
+    var coluna = []
+    if (listaComplementos == 1){
+        listaComplementos = 0;
+    }
+    if (listaComplementos == 0) {
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/massa-corrida/'">
+                    <img class="card-img-top" src="imagens/complementos/1_massa_corrida.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Massa Corrida</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/massa-corrida/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/massa-acrilica/'">
+                    <img class="card-img-top" src="imagens/complementos/2_massa_acrilica.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Massa Acrílica</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/massa-acrilica/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/selador-acrilico/'">
+                    <img class="card-img-top" src="imagens/complementos/3_selador_acrilico.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Selador Acrílico</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/selador-acrilico/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/impermeabilizante-telha/'">
+                    <img class="card-img-top" src="imagens/complementos/4_telha_ceramica.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Telha & Cerâmica</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/impermeabilizante-telha/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/verbrilho/'">
+                    <img class="card-img-top" src="imagens/complementos/5_verbrilho.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Verbrilho</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/verbrilho/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/selafacil/'">
+                    <img class="card-img-top" src="imagens/complementos/6_selafacil.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Selafácil</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/selafacil/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/fundo-para-galvanizado/'">
+                    <img class="card-img-top" src="imagens/complementos/7_fundo_galvanizado.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Fundo para Galvanizado</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/fundo-para-galvanizado/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/fundo-branco-universal/'">
+                    <img class="card-img-top" src="imagens/complementos/8_fundo_branco_universal.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Fundo Branco Universal</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/fundo-branco-universal/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/massa-para-madeira/'">
+                    <img class="card-img-top" src="imagens/complementos/9_outros.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Massa para Madeira</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/massa-para-madeira/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/fundo-preparador-de-paredes/'">
+                    <img class="card-img-top" src="imagens/complementos/9_outros.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Fundo Preparador de Paredes</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/fundo-preparador-de-paredes/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/fundo-branco-fosco/'">
+                    <img class="card-img-top" src="imagens/complementos/9_outros.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Fundo Branco Fosco</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/fundo-branco-fosco/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/ferrobras/'">
+                    <img class="card-img-top" src="imagens/complementos/9_outros.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Ferrobras</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/ferrobras/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/zarcao/'">
+                    <img class="card-img-top" src="imagens/complementos/9_outros.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Zarcão</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/zarcao/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+    }
+
+    for(i = 0; i < coluna.length; i++){
+        linha.innerHTML += coluna[i];
+    }
+
+    listaComplementos += 1;
+    listaParede = [];
+    listaMetalMadeira = [];
+    listaComplementos = [];
+    listaTexturas = [];
+}
+
 function getVernizes(){
     var linha = document.getElementById("cardRow");
     linha.innerHTML = ""
@@ -352,119 +543,6 @@ function getVernizes(){
     listaTexturas = [];
 }
 
-
-// function getTintasParede(){
-//     if (listaParede == 0) {
-//         var request = new XMLHttpRequest();
-//         request.open('GET','https://my-json-server.typicode.com/messias-henrique/sd-api/tintasParede');
-
-//         request.onreadystatechange = function(){
-//             if(this.readyState == 4 && this.status == 200){
-//                 var dados = JSON.parse(request.responseText);
-//                 for(var i=0; i<dados.length; i++){
-//                     console.log(dados[i]);
-//                     listaParede += 1;
-//                 }
-//                 listaMetalMadeira = [];
-//                 listaComplementos = [];
-//                 listaTexturas = [];
-//                 listaVernizes = [];
-//                 constroiCards(dados);   
-//             }
-//         };
-//         request.send();
-//     }   
+// function link(link){
+//     window.open(link);
 // }
-
-// function getTintasMetalMadeira(){
-//     if (listaMetalMadeira == 0) {
-//         var request = new XMLHttpRequest();
-//         request.open('GET','https://my-json-server.typicode.com/messias-henrique/sd-api/tintasMetalMadeira');
-//         request.onreadystatechange = function(){
-//             if(this.readyState == 4 && this.status == 200){
-//                 var dados = JSON.parse(request.responseText);
-//                 for(var i=0; i<dados.length; i++){
-//                     console.log(dados[i]);
-//                     listaMetalMadeira += 1;
-//                 } 
-//                 listaParede = 0;
-//                 listaComplementos = 0;
-//                 listaTexturas = 0;  
-//                 listaVernizes = 0;        
-//                 constroiCards(dados);
-//             }        
-//         };
-//         request.send();
-//     }
-// }
-
-// function getComplementos(){
-//     if (listaComplementos == 0) {
-//         var request = new XMLHttpRequest();
-//         request.open('GET','https://my-json-server.typicode.com/messias-henrique/sd-api/complementos');
-//         request.onreadystatechange = function(){
-//             if(this.readyState == 4 && this.status == 200){
-//                 var dados = JSON.parse(request.responseText);
-//                 for(var i=0; i<dados.length; i++){
-//                     console.log(dados[i]);
-//                     listaComplementos += 1;
-//                 } 
-//                 listaParede = 0;
-//                 listaMetalMadeira = 0;
-//                 listaTexturas = 0;  
-//                 listaVernizes = 0;        
-//                 constroiCards(dados);
-//             }        
-//         };
-//         request.send();
-//     }
-// }
-
-// function getTexturas(){
-//     if (listaTexturas == 0) {
-//         var request = new XMLHttpRequest();
-//         request.open('GET','https://my-json-server.typicode.com/messias-henrique/sd-api/texturas');
-//         request.onreadystatechange = function(){
-//             if(this.readyState == 4 && this.status == 200){
-//                 var dados = JSON.parse(request.responseText);
-//                 for(var i=0; i<dados.length; i++){
-//                     console.log(dados[i]);
-//                     listaTexturas += 1;
-//                 } 
-//                 listaParede = 0;
-//                 listaMetalMadeira = 0;
-//                 listaComplementos = 0;  
-//                 listaVernizes = 0;        
-//                 constroiCards(dados);
-//             }        
-//         };
-//         request.send();
-//     }
-// }
-
-// function getVernizes(){
-//     if (listaVernizes == 0) {
-//         var request = new XMLHttpRequest();
-//         request.open('GET','https://my-json-server.typicode.com/messias-henrique/sd-api/vernizes');
-//         request.onreadystatechange = function(){
-//             if(this.readyState == 4 && this.status == 200){
-//                 var dados = JSON.parse(request.responseText);
-//                 for(var i=0; i<dados.length; i++){
-//                     console.log(dados[i]);
-//                     listaVernizes += 1;
-//                 } 
-//                 listaParede = 0;
-//                 listaMetalMadeira = 0;
-//                 listaComplementos = 0;        
-//                 listaTexturas = 0;  
-                
-//                 constroiCards(dados);
-//             }        
-//         };
-//         request.send();
-//     }
-// }
-
-function link(link){
-    window.open(link);
-}
