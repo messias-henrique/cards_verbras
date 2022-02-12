@@ -29,6 +29,9 @@ function getTintasParede(){
     var linha = document.getElementById("cardRow");
     var colunas = []
     var coluna = []
+    if (listaParede == 1){
+        listaParede = 0;
+    }
     if (listaParede == 0) {
         coluna.push(`<div class="column">
                 <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/vertex-acrilico-fosco/'">
@@ -139,6 +142,60 @@ function getTintasParede(){
     linha.innerHTML = coluna;
     listaParede += 1
     listaMetalMadeira = [];
+    listaComplementos = [];
+    listaTexturas = [];
+    listaVernizes = [];
+}
+
+function getTintasMetalMadeira(){
+    var linha = document.getElementById("cardRow");
+    var coluna = []
+    if (listaMetalMadeira == 1){
+        listaMetalMadeira = 0;
+    }
+    if (listaMetalMadeira == 0) {
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/esmalte-secagem-rapida/'">
+                    <img class="card-img-top" src="metalmadeira/1_esmalte_sec_rap.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Esmalte Secagem Rápida</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/esmalte-secagem-rapida/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/vertex-esmalte-premium-extra-rapido/'">
+                    <img class="card-img-top" src="metalmadeira/2_esmalte_ext_rap.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Esmalte Extra Rápido</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/vertex-esmalte-premium-extra-rapido/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/esmalte-base-agua-premium/'">
+                    <img class="card-img-top" src="metalmadeira/3_esmalte_base_agua.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Esmalte Base Água</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/esmalte-base-agua-premium/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+    }
+    linha.innerHTML = coluna;
+    listaMetalMadeira += 1;
+    listaParede = [];
     listaComplementos = [];
     listaTexturas = [];
     listaVernizes = [];
