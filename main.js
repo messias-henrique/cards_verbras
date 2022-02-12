@@ -127,7 +127,7 @@ function getTintasParede(){
                     <img class="card-img-top" src="parede/8_gesso.png">
                         <div class="card-body" id="cardBodyTinta" >
                         <br>
-                            <h6 class="card-title" id="cardTitle"><strong>Cimentados e Pisos</strong></h6>
+                            <h6 class="card-title" id="cardTitle"><strong>Gesso e Drywall</strong></h6>
                             <br>
                             <a href='http://verbras.com.br/produtos/tinta-para-gesso/' class="btn">Veja mais</a>
                         </div>
