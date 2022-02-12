@@ -144,7 +144,6 @@ function getTintasParede(){
         linha.innerHTML += coluna[i];
     }
 
-    //linha.innerHTML = coluna;
     listaParede += 1
     listaMetalMadeira = [];
     listaComplementos = [];
@@ -204,14 +203,12 @@ function getTintasMetalMadeira(){
         linha.innerHTML += coluna[i];
     }
 
-    //linha.innerHTML = coluna;
     listaMetalMadeira += 1;
     listaParede = [];
     listaComplementos = [];
     listaTexturas = [];
     listaVernizes = [];
 }
-
 
 function getTexturas(){
     var linha = document.getElementById("cardRow");
@@ -277,13 +274,84 @@ function getTexturas(){
         linha.innerHTML += coluna[i];
     }
 
-    //linha.innerHTML = coluna;
     listaTexturas += 1;
     listaParede = [];
     listaComplementos = [];
     listaMetalMadeira = [];
     listaVernizes = [];
 }
+
+function getVernizes(){
+    var linha = document.getElementById("cardRow");
+    linha.innerHTML = ""
+    var coluna = []
+    if (listaVernizes == 1){
+        listaVernizes = 0;
+    }
+    if (listaVernizes == 0) {
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/verniz-copal/'">
+                    <img class="card-img-top" src="imagens/vernizes/1_verniz_copal.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Verniz Copal</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/verniz-copal/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/verniz-flash/'">
+                    <img class="card-img-top" src="imagens/vernizes/2_verniz_flash.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Verniz Flash</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/verniz-flash/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/verniz-triplo-filtro-solar/'">
+                    <img class="card-img-top" src="imagens/vernizes/3_verniz_triplo_filtro_solar.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Verniz Triplo Filtro Solar</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/verniz-triplo-filtro-solar/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+        coluna.push(`<div class="column">
+                <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/verniz-acrilico/'">
+                    <img class="card-img-top" src="imagens/vernizes/4_verniz_acrilico.png">
+                        <div class="card-body" id="cardBodyTinta" >
+                        <br>
+                            <h6 class="card-title" id="cardTitle"><strong>Verniz Acrílico</strong></h6>
+                            <br>
+                            <a href='http://verbras.com.br/produtos/verniz-acrilico/' class="btn">Veja mais</a>
+                        </div>
+                </div>
+                <br>
+                </div>`);
+    }
+
+    for(i = 0; i < coluna.length; i++){
+        linha.innerHTML += coluna[i];
+    }
+
+    listaVernizes += 1;
+    listaParede = [];
+    listaComplementos = [];
+    listaMetalMadeira = [];
+    listaTexturas = [];
+}
+
 
 // function getTintasParede(){
 //     if (listaParede == 0) {
