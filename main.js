@@ -36,7 +36,7 @@ function getTintasParede(){
     if (listaParede == 0) {
         coluna.push(`<div class="column">
                 <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/vertex-acrilico-fosco/'">
-                    <img class="card-img-top" src="parede/1_verlatex.png">
+                    <img class="card-img-top" src="imagens/parede/1_verlatex.png">
                         <div class="card-body" id="cardBodyTinta" >
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Vertex Acrílico Fosco</strong></h6>
@@ -49,7 +49,7 @@ function getTintasParede(){
 
         coluna.push(`<div class="column">
                 <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/pop-acrilico-fosco/'">
-                    <img class="card-img-top" src="parede/2_standard.png">
+                    <img class="card-img-top" src="imagens/parede/2_standard.png">
                         <div class="card-body" id="cardBodyTinta" >
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Standard Acrílico Fosco</strong></h6>
@@ -62,7 +62,7 @@ function getTintasParede(){
 
         coluna.push(`<div class="column">
                 <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/vertex-semibrilho/'">
-                    <img class="card-img-top" src="parede/3_semibrilho.png">
+                    <img class="card-img-top" src="imagens/parede/3_semibrilho.png">
                         <div class="card-body" id="cardBodyTinta" >
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Vertex Semibrilho</strong></h6>
@@ -76,7 +76,7 @@ function getTintasParede(){
 
         coluna.push(`<div class="column">
                 <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/vercryl-premium/'">
-                    <img class="card-img-top" src="parede/4_vercryl.png">
+                    <img class="card-img-top" src="imagens/parede/4_vercryl.png">
                         <div class="card-body" id="cardBodyTinta" >
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Vercryl</strong></h6>
@@ -89,7 +89,7 @@ function getTintasParede(){
 
         coluna.push(`<div class="column">
                 <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/toque-suave/'">
-                    <img class="card-img-top" src="parede/5_toque_suave.png">
+                    <img class="card-img-top" src="imagens/parede/5_toque_suave.png">
                         <div class="card-body" id="cardBodyTinta" >
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Toque Suave</strong></h6>
@@ -102,7 +102,7 @@ function getTintasParede(){
 
         coluna.push(`<div class="column">
                 <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/verlatex-premium/'">
-                    <img class="card-img-top" src="parede/6_super_verlatex.png">
+                    <img class="card-img-top" src="imagens/parede/6_super_verlatex.png">
                         <div class="card-body" id="cardBodyTinta" >
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Super Verlatex Premium</strong></h6>
@@ -115,7 +115,7 @@ function getTintasParede(){
 
         coluna.push(`<div class="column">
                 <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/cimentados-e-pisos/'">
-                    <img class="card-img-top" src="parede/7_cimentados.png">
+                    <img class="card-img-top" src="imagens/parede/7_cimentados.png">
                         <div class="card-body" id="cardBodyTinta" >
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Cimentados e Pisos</strong></h6>
@@ -128,7 +128,7 @@ function getTintasParede(){
 
         coluna.push(`<div class="column">
                 <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/tinta-para-gesso/'">
-                    <img class="card-img-top" src="parede/8_gesso.png">
+                    <img class="card-img-top" src="imagens/parede/8_gesso.png">
                         <div class="card-body" id="cardBodyTinta" >
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Gesso e Drywall</strong></h6>
@@ -162,7 +162,7 @@ function getTintasMetalMadeira(){
     if (listaMetalMadeira == 0) {
         coluna.push(`<div class="column">
                 <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/esmalte-secagem-rapida/'">
-                    <img class="card-img-top" src="metalmadeira/1_esmalte_sec_rap.png">
+                    <img class="card-img-top" src="imagens/metalmadeira/1_esmalte_sec_rap.png">
                         <div class="card-body" id="cardBodyTinta" >
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Esmalte Secagem Rápida</strong></h6>
@@ -175,7 +175,7 @@ function getTintasMetalMadeira(){
 
         coluna.push(`<div class="column">
                 <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/vertex-esmalte-premium-extra-rapido/'">
-                    <img class="card-img-top" src="metalmadeira/2_esmalte_ext_rap.png">
+                    <img class="card-img-top" src="imagens/metalmadeira/2_esmalte_ext_rap.png">
                         <div class="card-body" id="cardBodyTinta" >
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Esmalte Extra Rápido</strong></h6>
@@ -188,7 +188,7 @@ function getTintasMetalMadeira(){
 
         coluna.push(`<div class="column">
                 <div class="card" id="cardTinta" onclick="location.href = 'http://verbras.com.br/produtos/esmalte-base-agua-premium/'">
-                    <img class="card-img-top" src="metalmadeira/3_esmalte_base_agua.png">
+                    <img class="card-img-top" src="imagens/metalmadeira/3_esmalte_base_agua.png">
                         <div class="card-body" id="cardBodyTinta" >
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Esmalte Base Água</strong></h6>
