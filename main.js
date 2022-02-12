@@ -29,6 +29,7 @@ function getTintasParede(){
     var linha = document.getElementById("cardRow");
     var colunas = []
     var coluna = []
+    linha.innerHTML = ""
     if (listaParede == 1){
         listaParede = 0;
     }
@@ -139,7 +140,11 @@ function getTintasParede(){
                 </div>`);
 
     }   
-    linha.innerHTML = coluna;
+    for(i = 0; i < coluna.length; i++){
+        linha.innerHTML += coluna[i];
+    }
+
+    //linha.innerHTML = coluna;
     listaParede += 1
     listaMetalMadeira = [];
     listaComplementos = [];
@@ -149,6 +154,7 @@ function getTintasParede(){
 
 function getTintasMetalMadeira(){
     var linha = document.getElementById("cardRow");
+    linha.innerHTML = ""
     var coluna = []
     if (listaMetalMadeira == 1){
         listaMetalMadeira = 0;
@@ -193,7 +199,12 @@ function getTintasMetalMadeira(){
                 <br>
                 </div>`);
     }
-    linha.innerHTML = coluna;
+
+    for(i = 0; i < coluna.length; i++){
+        linha.innerHTML += coluna[i];
+    }
+
+    //linha.innerHTML = coluna;
     listaMetalMadeira += 1;
     listaParede = [];
     listaComplementos = [];
