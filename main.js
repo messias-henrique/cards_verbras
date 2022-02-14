@@ -41,7 +41,7 @@ function getTintasParede(){
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Vertex Acrílico Fosco</strong></h6>
                             <br>
-                            <a href='http://verbras.com.br/produtos/vertex-acrilico-fosco/' class="btn">Veja mais</a>
+                            <a href='http://verbras.com.br/produtos/vertex-acrilico-fosco/' class="btn btn-info">Veja mais</a>
                         </div>
                 </div>
                 <br>
@@ -54,7 +54,7 @@ function getTintasParede(){
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Standard Acrílico Fosco</strong></h6>
                             <br>
-                            <a href='http://verbras.com.br/produtos/pop-acrilico-fosco/' class="btn">Veja mais</a>
+                            <a href='http://verbras.com.br/produtos/pop-acrilico-fosco/' class="btn btn-info">Veja mais</a>
                         </div>
                 </div>
                 <br>
@@ -67,7 +67,7 @@ function getTintasParede(){
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Vertex Semibrilho</strong></h6>
                             <br>
-                            <a href='http://verbras.com.br/produtos/vertex-semibrilho/' class="btn">Veja mais</a>
+                            <a href='http://verbras.com.br/produtos/vertex-semibrilho/' class="btn btn-info">Veja mais</a>
                         </div>
                 </div>
                 <br>
@@ -81,7 +81,7 @@ function getTintasParede(){
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Vercryl</strong></h6>
                             <br>
-                            <a href='http://verbras.com.br/produtos/vercryl-premium//' class="btn">Veja mais</a>
+                            <a href='http://verbras.com.br/produtos/vercryl-premium//' class="btn btn-info">Veja mais</a>
                         </div>
                 </div>
                 <br>
@@ -94,7 +94,7 @@ function getTintasParede(){
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Toque Suave</strong></h6>
                             <br>
-                            <a href='http://verbras.com.br/produtos/toque-suave/' class="btn">Veja mais</a>
+                            <a href='http://verbras.com.br/produtos/toque-suave/' class="btn btn-info">Veja mais</a>
                         </div>
                 </div>
                 <br>
@@ -107,7 +107,7 @@ function getTintasParede(){
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Super Verlatex Premium</strong></h6>
                             <br>
-                            <a href='http://verbras.com.br/produtos/verlatex-premium/' class="btn">Veja mais</a>
+                            <a href='http://verbras.com.br/produtos/verlatex-premium/' class="btn btn-info">Veja mais</a>
                         </div>
                 </div>
                 <br>
@@ -120,7 +120,7 @@ function getTintasParede(){
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Cimentados e Pisos</strong></h6>
                             <br>
-                            <a href='http://verbras.com.br/produtos/cimentados-e-pisos/' class="btn">Veja mais</a>
+                            <a href='http://verbras.com.br/produtos/cimentados-e-pisos/' class="btn btn-info">Veja mais</a>
                         </div>
                 </div>
                 <br>
@@ -133,7 +133,7 @@ function getTintasParede(){
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Gesso e Drywall</strong></h6>
                             <br>
-                            <a href='http://verbras.com.br/produtos/tinta-para-gesso/' class="btn">Veja mais</a>
+                            <a href='http://verbras.com.br/produtos/tinta-para-gesso/' class="btn btn-info">Veja mais</a>
                         </div>
                 </div>
                 <br>
@@ -166,7 +166,7 @@ function getTintasMetalMadeira(){
                         <br>
                             <h6 class="card-title" id="cardTitle"><strong>Esmalte Secagem Rápida</strong></h6>
                             <br>
-                            <a href='http://verbras.com.br/produtos/esmalte-secagem-rapida/' class="btn">Veja mais</a>
+                            <a href='http://verbras.com.br/produtos/esmalte-secagem-rapida/' class="btn btn-info">Veja mais</a>
                         </div>
                 </div>
                 <br>
