@@ -543,6 +543,13 @@ function getVernizes(){
     listaTexturas = [];
 }
 
+function limpar(){
+    var linha = document.getElementById("cardRow");
+    linha.innerHTML = `<div class="texto-inicial">
+            <h5>Os produtos serão mostrados aqui.</h5>
+            </div>`
+}
+
 // function link(link){
 //     window.open(link);
 // }

@@ -11,11 +11,11 @@
 </head>
 <body>
     <header>
-        <div class="line"></div>
-        
-        <div class="container header--area">
+        <!-- <div class="line"></div> -->
+        <br><br>
+        <div class="container-header--area">
             <div class="header--left">
-                <h2>Verbras</h2>
+                <h1>Verbras</h1>
             </div>
         </div>
     </header>
@@ -23,17 +23,27 @@
     <section class="banner">
         <div class="container">
             <div class="container-botões">
-                <button type="button" class="btn" id="bt" onclick=getTintasParede()>Parede</button>
-                <button type="button" class="btn" id="bt" onclick=getTintasMetalMadeira()>Madeira e Metal</button>
-                <button type="button" class="btn" id="bt" onclick=getComplementos()>Complementos</button>
-                <button type="button" class="btn" id="bt" onclick=getTexturas()>Texturas</button>
-                <button type="button" class="btn" id="bt" onclick=getVernizes()>Vernizes</button>
+                <button type="button" class="btn btn-info" id="bt" onclick=getTintasParede()>Parede</button>
+                <button type="button" class="btn btn-info" id="bt" onclick=getTintasMetalMadeira()>Madeira e Metal</button>
+                <button type="button" class="btn btn-info" id="bt" onclick=getComplementos()>Complementos</button>
+                <button type="button" class="btn btn-info" id="bt" onclick=getTexturas()>Texturas</button>
+                <button type="button" class="btn btn-info" id="bt" onclick=getVernizes()>Vernizes</button>
+                <button type="button" class="btn btn-danger" onclick=limpar()>Limpar</button>
             </div>
             <br><br><br>
             <div class="row" id="cardRow">
+                <div class="texto-inicial">
+                    <h5>Os produtos serão mostrados aqui.</h5>
+                </div>
             </div>
         </div>
     </section>
+    <br><br>
+    <footer>
+        <div class="line"></div>
+    </footer>
+    
+    
     <script src="main.js"></script>
 </body>
 </html>
