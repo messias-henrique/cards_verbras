@@ -4,27 +4,6 @@ let listaComplementos = 0;
 let listaTexturas = 0;
 let listaVernizes = 0;
 
-function constroiCards(dados){
-    var linha = document.getElementById("cardRow");
-    var colunas = [];
-    for(var i=0; i<dados.length; i++) {
-        var coluna = `<div class="column">
-                <div class="card" id="cardTinta" onclick="location.href = '${dados[i].link}'">
-                    <img class="card-img-top" src=${dados[i].img}>
-                        <div class="card-body" id="cardBodyTinta" >
-                        <br>
-                            <h6 class="card-title" id="cardTitle"><strong>${dados[i].titulo}</strong></h6>
-                            <br>
-                            <a href=${dados[i].link} class="btn">Veja mais</a>
-                        </div>
-                </div>
-                <br>
-                </div>`
-        colunas += coluna;
-    }
-    linha.innerHTML = colunas;
-}
-
 function getTintasParede(){
     var linha = document.getElementById("cardRow");
     var colunas = []
@@ -144,11 +123,11 @@ function getTintasParede(){
         linha.innerHTML += coluna[i];
     }
 
-    listaParede += 1
-    listaMetalMadeira = [];
-    listaComplementos = [];
-    listaTexturas = [];
-    listaVernizes = [];
+    listaParede = 1
+    listaMetalMadeira = 0;
+    listaComplementos = 0;
+    listaTexturas = 0;
+    listaVernizes = 0;
 }
 
 function getTintasMetalMadeira(){
@@ -203,11 +182,11 @@ function getTintasMetalMadeira(){
         linha.innerHTML += coluna[i];
     }
 
-    listaMetalMadeira += 1;
-    listaParede = [];
-    listaComplementos = [];
-    listaTexturas = [];
-    listaVernizes = [];
+    listaMetalMadeira = 1;
+    listaParede = 0;
+    listaComplementos = 0;
+    listaTexturas = 0;
+    listaVernizes = 0;
 }
 
 function getTexturas(){
@@ -274,11 +253,11 @@ function getTexturas(){
         linha.innerHTML += coluna[i];
     }
 
-    listaTexturas += 1;
-    listaParede = [];
-    listaComplementos = [];
-    listaMetalMadeira = [];
-    listaVernizes = [];
+    listaTexturas = 1;
+    listaParede = 0;
+    listaComplementos = 0;
+    listaMetalMadeira = 0;
+    listaVernizes = 0;
 }
 
 function getComplementos(){
@@ -465,11 +444,11 @@ function getComplementos(){
         linha.innerHTML += coluna[i];
     }
 
-    listaComplementos += 1;
-    listaParede = [];
-    listaMetalMadeira = [];
-    listaComplementos = [];
-    listaTexturas = [];
+    listaComplementos = 1;
+    listaParede = 0;
+    listaMetalMadeira = 0;
+    listaComplementos = 0;
+    listaTexturas = 0;
 }
 
 function getVernizes(){
@@ -536,11 +515,11 @@ function getVernizes(){
         linha.innerHTML += coluna[i];
     }
 
-    listaVernizes += 1;
-    listaParede = [];
-    listaComplementos = [];
-    listaMetalMadeira = [];
-    listaTexturas = [];
+    listaVernizes = 1;
+    listaParede = 0;
+    listaComplementos = 0;
+    listaMetalMadeira = 0;
+    listaTexturas = 0;
 }
 
 function limpar(){
@@ -549,7 +528,3 @@ function limpar(){
             <h5>Os produtos serão mostrados aqui.</h5>
             </div>`
 }
-
-// function link(link){
-//     window.open(link);
-// }
